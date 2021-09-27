@@ -1,0 +1,77 @@
+{
+  "genres": {
+    "Thriller": [
+      {
+        "title": "JACK RYAN",
+        "rating": "8.1",
+        "description": "An up-and-coming CIA analyst, Jack Ryan, is thrust into a dangerous field assignment as he uncovers a pattern in terrorist communication that launches him into the center of a dangerous gambit."
+      },
+      {
+        "title": "BLACK MIRROR",
+        "rating": "8.1",
+        "description": "An anthology series exploring a twisted, high-tech multiverse where humanity's greatest innovations and darkest instincts collide."
+      },
+      {
+        "title": "MONEY HEIST",
+        "rating": "8.5",
+        "description": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain."
+      },
+      {
+        "title": "Breaking Bad",
+        "rating": "9.4",
+        "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future."
+      }
+    ],
+    "Horror": [
+      {
+        "title": "THE WALKING DEAD",
+        "rating": "8.3",
+        "description": "A group of survivors try to find a cure for a zombie outbreak while dealing with various other survivors."
+      },
+      {
+        "title": "PENNY DREADFUL",
+        "rating": "8.1",
+        "description": "Explorer Sir Malcolm Murray, American gunslinger Ethan Chandler, scientist Victor Frankenstein and medium Vanessa Ives unite to combat supernatural threats in Victorian London."
+      },
+      {
+        "title": "TERROR",
+        "rating": "8.0",
+        "description": "Supernatural, semihistorical, horror anthology series, where each season is inspired by a different infamous or mysterious real life historical tragedy."
+      }
+    ],
+    "Fantasy Drama": [
+      {
+        "title": "GAME OF THRONES",
+        "rating": "9.4",
+        "description": "Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years."
+      },
+      {
+        "title": "STRANGER THINGS",
+        "rating": "9",
+        "description": "A group of people who are strangers in a foreign land attempt to survive in a hostile land."
+      },
+      {
+        "title": "HARRY POTTER",
+        "rating": "7.7",
+        "description": "Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the life of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry."
+      }
+    ],
+    "Science Fiction": [
+        {
+            "title": "THE MANDALORIAN",
+            "rating": "9.1",
+            "description": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic."
+        },
+        {
+            "title":"WESTWORLD",
+            "rating":"8.6",
+            "description":"Set at the intersection of the near future and the reimagined past, explore a world in which every human appetite can be indulged without consequence."
+        },
+        {
+            "title":"EXPANSE",
+            "rating":"8.4",
+            "description":"In the 24th century, a group of humans untangle a vast plot which threatens the Solar System's fragile state of detente."
+        }
+    ]
+  }
+}
