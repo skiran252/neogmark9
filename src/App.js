@@ -1,11 +1,10 @@
 import "./App.css";
-import React,{useState} from "react";
+import React, { useState } from "react";
 import data from "./data.json";
 function App() {
-
   const [genreName, setGenre] = useState("Thriller");
   const genres = data.genres;
-  console.log(genres,genres.Thriller);
+  console.log(genres, genres.Thriller);
   return (
     <div className="App pt-5">
       <div className="container">
@@ -21,7 +20,10 @@ function App() {
               <div className="text-center fw-bolder fs-3">GENRES</div>
               {Object.keys(genres).map((genre) => {
                 return (
-                  <button className="bg-dark btn btn-default title" onClick={()=>setGenre(genre)}>
+                  <button
+                    className="bg-dark btn btn-default title"
+                    onClick={() => setGenre(genre)}
+                  >
                     {genre}
                   </button>
                 );
@@ -29,26 +31,32 @@ function App() {
             </div>
             <div className="col-md-8 column col-xs-12">
               {console.log(genres[genreName])}
-              <div className="fw-bolder fs-3">SUGGESTIONS</div>
-              <p className="text-white">{genreName}</p>
-              {
-                
-                genres[genreName].map((series) => {
-                  return (
-                    <div className="card bg-dark text-white">
-                      <div className="card-body">
-                        <h5 className="card-title">{series.title}</h5>
-                        <p className="card-subtitle" style={{color:"greenyellow"}}>Rating: {series.rating}</p>
-                        <p className="card-text">{series.description}</p>
-                        <a href="/#" className="btn btn-primary">
-                          View
-                        </a>
-                      </div>
+              <div className="fw-bolder fs-3">
+                SUGGESTIONS:{" "}
+                <span  style={{ color: "goldenrod" }}>
+                  ({genreName})
+                </span>
+              </div>
+
+              {genres[genreName].map((series) => {
+                return (
+                  <div className="card bg-dark text-white">
+                    <div className="card-body">
+                      <h5 className="card-title">{series.title}</h5>
+                      <p
+                        className="card-subtitle"
+                        style={{ color: "greenyellow" }}
+                      >
+                        Rating: {series.rating}
+                      </p>
+                      <p className="card-text">{series.description}</p>
+                      <a href="/#" className="btn btn-primary">
+                        View
+                      </a>
                     </div>
-                  );
-                })
-              }
-              
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
