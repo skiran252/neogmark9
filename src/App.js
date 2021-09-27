@@ -38,6 +38,7 @@ function App() {
                     <div className="card bg-dark text-white">
                       <div className="card-body">
                         <h5 className="card-title">{series.title}</h5>
+                        <p className="card-subtitle" style={{color:"greenyellow"}}>Rating: {series.rating}</p>
                         <p className="card-text">{series.description}</p>
                         <a href="/#" className="btn btn-primary">
                           View
