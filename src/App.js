@@ -27,7 +27,7 @@ function App() {
                 );
               })}
             </div>
-            <div className="col-md-8 column">
+            <div className="col-md-8 column col-xs-12">
               {console.log(genres[genreName])}
               <div className="fw-bolder fs-3">SUGGESTIONS</div>
               <p className="text-white">{genreName}</p>
